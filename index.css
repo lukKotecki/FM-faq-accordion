@@ -16,7 +16,8 @@ body{
     align-items: center;
     background-image: url('assets/images/background-pattern-mobile.svg');
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: 100%;
+    /* user-select: none; */
 }
 .card{
     background-color: white;
@@ -49,13 +50,14 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 1em;
+    cursor: pointer;
 }
 .question h2{
     font-size: 1.1rem;
 }
 
 .answer{
-    /* display: none; */
+    display: none;
 }
 
 p{
