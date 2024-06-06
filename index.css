@@ -57,7 +57,13 @@ body{
 }
 
 .answer{
-    display: none;
+    /* display: none; */
+
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+
 }
 
 p{
