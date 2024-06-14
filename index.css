@@ -74,9 +74,6 @@ body{
 .question h2{
     font-size: 1.1rem;
 }
-.question h2:hover{
-    color: hsl(292, 16%, 49%);
-}
 
 .answer{
     /* display: none; */
@@ -97,13 +94,3 @@ p{
     background-color: hsl(292, 16%, 49%); */
 }
 
-
-@media (min-width: 550px){
-    body{
-        background-image: url('assets/images/background-pattern-desktop.svg');
-    }
-    .card{
-        width: 550px;
-        border-radius: 1em;
-    }
-}
