@@ -1,8 +1,3 @@
-
-
-
-
-
 document.addEventListener('animationstart', function (e) {
     if (e.animationName === 'fade-in') {
         e.target.classList.add('did-fade-in');
@@ -15,17 +10,7 @@ document.addEventListener('animationstart', function (e) {
      }
   });
 
-
-
-
-
-console.clear()
-
 const question = document.getElementsByClassName('question')
-
-console.log(question)
-
-
 
 for(let i=0; i<question.length; i++){
     console.log(question[i])
@@ -48,13 +33,7 @@ for(let i=0; i<question.length; i++){
             question[i].parentNode.childNodes[3].style.opacity = '0'
             question[i].parentNode.childNodes[3].style.overflow = 'hidden'
             question[i].parentNode.childNodes[3].style.height = '0'
-
-
         }
     })
 }
 
-
-// opacity: 0;
-//     height: 0;
-//     overflow: hidden;
