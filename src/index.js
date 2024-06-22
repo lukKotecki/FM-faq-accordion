@@ -1,3 +1,6 @@
+import 'bootstrap'
+
+
 document.addEventListener('animationstart', function (e) {
     if (e.animationName === 'fade-in') {
         e.target.classList.add('did-fade-in');
