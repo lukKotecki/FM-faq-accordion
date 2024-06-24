@@ -3,7 +3,15 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-$primary: red;
+$primary: green;
+// $accordion-button-color: pink;
+$accordion-button-icon:         url("../assets/images/icon-plus.svg");
+$accordion-button-active-icon:  url("../assets/images/icon-minus.svg");
+
+$accordion-button-active-bg: white;
+
+// $accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle);
+// $accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
