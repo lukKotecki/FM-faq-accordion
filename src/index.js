@@ -1,6 +1,19 @@
 // import 'bootstrap'
 
 
+// let questions = document.getElementsByClassName('accordion-collapse')
+
+
+// for(let i=0; i< questions.length; i++){
+//     questions[i].classList.remove("show")
+// }
+
+
+
+
+
+
+
 // document.addEventListener('animationstart', function (e) {
 //     if (e.animationName === 'fade-in') {
 //         e.target.classList.add('did-fade-in');

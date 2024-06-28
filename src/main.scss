@@ -3,24 +3,22 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-$primary: green;
-// $accordion-button-color: pink;
-$accordion-button-icon:         url("../assets/images/icon-plus.svg");
+$primary: white;
+$secondary: hsl(292, 42%, 14%);
+$info: hsl(292, 16%, 49%);
+
 $accordion-button-active-icon:  url("../assets/images/icon-minus.svg");
+$accordion-button-icon:         url("../assets/images/icon-plus.svg");
 
 $accordion-button-active-bg: white;
+
 
 // $accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle);
 // $accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis);
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
-
-
-
 
 
 *, *::after, *:before{
@@ -43,7 +41,6 @@ body{
     background-image: url('../assets/images/background-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
-    /* user-select: none; */
 }
 .card{
     background-color: white;
@@ -57,47 +54,13 @@ body{
 
 .header{
     display: flex;
-    margin-bottom: 1.5em;
+    font-weight: 700;
 }
 .header img{
     width: 1.5rem;
     margin-right: 1em;
 }
 
-.question-wrapper{
-    border-bottom: 1px solid hsl(275, 100%, 97%);
-    margin-bottom: 1em;
+.accordion-button:hover {
+    color: hsl(276, 89%, 56%);
 }
-.question-wrapper:last-child{
-    border: none;
-}
-
-.question{
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    cursor: pointer;
-}
-.question h2{
-    font-size: 1.1rem;
-}
-
-.answer{
-    /* display: none; */
-
-    transition: opacity 1s ease-out;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-
-}
-
-p{
-    font-size: 1rem;
-    margin: 1em 0;
-    color: hsl(292, 16%, 49%);
-    /* background-color: hsl(275, 100%, 97%);
-    background-color: hsl(292, 42%, 14%);
-    background-color: hsl(292, 16%, 49%); */
-}
-
